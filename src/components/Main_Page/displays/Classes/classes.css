@@ -1,0 +1,96 @@
+.classes-main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.classes-top{
+    width: 100%;
+    height: 30%;
+    position: relative;
+}
+
+.classes-top hr{
+    border: none; /* Убираем границу */
+    background-color: orange; /* Цвет линии */
+    color: orange; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+    width: 70%;
+    float: right;
+    margin-top: 6%;
+}
+
+.classes-p-absolute{
+    font-family: 'Ogg', sans-serif;
+    font-size: 200px;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 7%;
+}
+
+.classes-p-absolute-opacity{
+    font-family: 'Ogg', sans-serif;
+    font-size: 350px;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 35%;
+    color: orange;
+    opacity: 0.1;
+}
+
+.classes-img-wrapper{
+    margin-top: 7%;
+    height: 58%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.classes-wrapper{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.classes-img{
+    width: 20%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+}
+
+.classes-img img{
+    height: 90%;
+    width: 90%;
+}
+
+.classes-img-p{
+    font-family: 'Ogg', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.classes-margin-top{
+    margin-top: 40px;
+}
+
+.classes-margin-top img{
+    margin-top: 10px;
+}
+
+.classes-img p{
+    margin-top: 10px;
+}
+
+.classes-img-wrapper img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}

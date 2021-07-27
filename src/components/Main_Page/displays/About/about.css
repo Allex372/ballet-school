@@ -1,0 +1,72 @@
+.about-main{
+    height: 100vh;
+    width: 100%;
+    background-color: #ECECEC;
+    display: flex;
+}
+
+.about-left, .about-right{
+    width: 50%;
+    height: 100%;
+}
+
+.about-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-left p{
+    font-size: 620px;
+    font-weight: bold;
+    font-family: 'Ogg', sans-serif;
+    background: url('../../../../img/main_page/SwanLake_UG_Header.jpg') center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -55px;
+    margin-left: 50px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.about-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-wrapper{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.about-p-big{
+    font-family: 'Ogg', sans-serif;
+    font-size: 200px;
+}
+
+.about-p-small{
+    font-family: 'Proxima-Nova', sans-serif;
+    font-size: 15px;
+    width: 85%;
+    letter-spacing: 2px;
+}
+
+.about-margin{
+    margin-top: 20px;
+}
+
+.about-wrapper button{
+    font-family: 'Proxima-Nova', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    border: 2px solid orange;
+    height: 50px;
+    width: 200px;
+    background-color: transparent;
+    margin-top: 20px;
+    cursor: pointer;
+}

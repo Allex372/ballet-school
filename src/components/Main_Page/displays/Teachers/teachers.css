@@ -1,0 +1,85 @@
+.teachers-main{
+    height: 100vh;
+    width: 100%;
+    background-color: #ECECEC;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.classes-top{
+    width: 100%;
+    height: 30%;
+    position: relative;
+}
+
+.classes-top hr{
+    border: none; /* Убираем границу */
+    background-color: orange; /* Цвет линии */
+    color: orange; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+    width: 70%;
+    float: right;
+    margin-top: 12.5%;
+}
+
+.classes-p-absolute{
+    font-family: 'Ogg', sans-serif;
+    font-size: 200px;
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 7%;
+}
+
+.classes-p-absolute-opacity{
+    font-family: 'Ogg', sans-serif;
+    font-size: 300px;
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 35%;
+    opacity: 0.1;
+}
+
+.teachers-bottom{
+    width: 100%;
+    height: 60%;
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.teachers-bottom-wrapper{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.teachers-img{
+    height: 80%;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.teachers-img img{
+    height: 100%;
+    width: 400px;
+}
+
+.teachers-bottom-wrapper button{
+    font-family: 'Proxima-Nova', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    border: 2px solid orange;
+    height: 50px;
+    width: 200px;
+    background-color: transparent;
+    margin: 0 auto;
+    margin-top: 30px;
+    cursor: pointer;
+}
