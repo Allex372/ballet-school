@@ -52,3 +52,42 @@
     color: white;
     letter-spacing: 115px;
 }
+
+.header{
+    height: 100px;
+    width: 100%;
+    /*background-color: #ECECEC;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left{
+    height: 100%;
+    width: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left a{
+    cursor: pointer;
+    font-family: 'Proxima-Nova', sans-serif;
+    font-size: 15px;
+    color: #ECECEC;
+    text-decoration: none;
+}
+
+.header-right{
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-right img{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
