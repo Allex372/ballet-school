@@ -7,6 +7,7 @@ import Classes from "./displays/Classes/Classes";
 import Photo_Line from "./displays/Photo_Line/Photo_Line";
 import Teachers from "./displays/Teachers/Teachers";
 import Performances from "./displays/Performances/Performances";
+import Footer from "./displays/Footer/Footer";
 
 
 function Main_Page () {
@@ -19,6 +20,7 @@ function Main_Page () {
           <Photo_Line/>
           <Teachers/>
           <Performances/>
+          <Footer/>
       </div>
   )
 }
