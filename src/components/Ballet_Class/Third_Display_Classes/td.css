@@ -1,0 +1,65 @@
+.td-classes-main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.td-classes-wrapper {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.td-classes-flex {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sd-classes-p-big {
+    font-family: 'Ogg', sans-serif;
+    font-size: 70px;
+    margin-left: 80px;
+}
+
+.sd-classes-lists {
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+    width: 80%;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.sd-classes-lists ul:first-child {
+    margin-left: 20px;
+}
+
+.sd-classes-lists ul li {
+    font-family: 'Proxima-Nova', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.td-classes-p {
+    font-family: 'Proxima-Nova', sans-serif;
+    font-size: 20px;
+    width: 90%;
+}
+
+.first {
+    margin-top: 60px;
+}
+
+.second-p {
+    margin-top: 10px;
+}

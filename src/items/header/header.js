@@ -33,7 +33,7 @@ function Header() {
                     <img src={couple} alt='route-home' className='header-route' id='link1'
                          style={data ? {display: 'block'} : {display: 'none'}}/>
                 </Link>
-                <Link to='/#'>
+                <Link to='/classes'>
                     <img src={couple} alt='route-couple' className='header-route' id='link2'
                                    style={data ? {display: 'block'} : {display: 'none'}}/>
                 </Link>

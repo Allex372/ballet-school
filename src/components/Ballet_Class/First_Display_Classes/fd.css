@@ -1,0 +1,22 @@
+.classes-fd-main{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.classes-header{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.classes-bg{
+    width: 90%;
+    height: 85%;
+    background-image: url("../../../img/ballet_class/main_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
