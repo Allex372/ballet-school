@@ -1,0 +1,30 @@
+.hs-fd-main{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../../img/main_page/performance/img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hs-fd-header{
+    width: 90%;
+}
+
+.hs-fd-wrapper{
+    height: 80%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hs-fd-p {
+    font-family: 'Ogg', sans-serif;
+    font-size: 260px;
+    color: white;
+    margin: 0 auto;
+}
