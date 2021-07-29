@@ -3,6 +3,8 @@ import './history.css';
 import First_Display_History from "./First_Display_History/First_Display_History";
 import Second_Display_History from "./Second_Display_History/Second_Display_History";
 import Third_Display_History from "./Third_Display_History/Third_Display_History";
+import Fourth_Display_History from "./Fourth_Display_History/Fourth_Display_History";
+import Fifth_Display_History from "./Fifth_Display_History/Fifth_Display_History";
 
 function History_Page () {
   return(
@@ -10,6 +12,8 @@ function History_Page () {
           <First_Display_History/>
           <Second_Display_History/>
           <Third_Display_History/>
+          <Fourth_Display_History/>
+          <Fifth_Display_History/>
       </div>
   )
 }
