@@ -1,0 +1,73 @@
+.teacher-main {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.teacher-wrapper {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    background-color: #ECECEC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.teacher-flex{
+    width: 90%;
+    height: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.teacher-flex img{
+    height: 400px;
+    width: 400px;
+}
+
+.teacher-flex-text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.teacher-flex-text-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.teacher-flex-text-wrapper div{
+    height: 2px;
+    width: 100px;
+    background-color: #C7C7C7;
+    box-sizing: border-box;
+    border-color: #C7C7C7;
+}
+
+.teacher-flex-title{
+    font-family: 'Ogg', sans-serif;
+    font-size: 70px;
+    margin-top: 20px;
+}
+
+.teacher-flex-profession{
+    font-family: 'Proxima-Nova', sans-serif;
+    font-size: 18px;
+    margin-left: 5px;
+    color: #C7C7C7;
+}
+
+.teacher-flex-description{
+    font-family: 'Proxima-Nova', sans-serif;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-top: 30px;
+}

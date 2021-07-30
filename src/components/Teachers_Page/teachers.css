@@ -1,0 +1,7 @@
+.teachersP-main{
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}

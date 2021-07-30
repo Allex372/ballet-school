@@ -5,6 +5,7 @@ import Lines from "../../img/main_page/burgerMenu/line.png";
 import couple from '../../img/main_page/burgerMenu/couple.png';
 import history from '../../img/main_page/burgerMenu/history.png';
 import team from '../../img/main_page/burgerMenu/team.png';
+import home from '../../img/main_page/burgerMenu/home.png';
 import {Link} from "react-router-dom";
 
 
@@ -30,16 +31,16 @@ function Header() {
                 <img src={Lines} alt='lines' className='header-btn' onClick={changeCross}
                      style={data ? {display: 'none'} : {display: 'block'}}/>
                 <Link to='/home'>
-                    <img src={couple} alt='route-home' className='header-route' id='link1'
+                    <img src={home} alt='route-home' className='header-route' id='link1'
+                         style={data ? {display: 'block'} : {display: 'none'}}/>
+                </Link>
+                <Link to='/history'>
+                    <img src={history} alt='route-history' className='header-route' id='link3'
                          style={data ? {display: 'block'} : {display: 'none'}}/>
                 </Link>
                 <Link to='/classes'>
                     <img src={couple} alt='route-couple' className='header-route' id='link2'
                                    style={data ? {display: 'block'} : {display: 'none'}}/>
-                </Link>
-                <Link to='/history'>
-                    <img src={history} alt='route-history' className='header-route' id='link3'
-                                         style={data ? {display: 'block'} : {display: 'none'}}/>
                 </Link>
                 <Link to='/teachers'>
                     <img src={team} alt='route-team' className='header-route' id='link4'
