@@ -1,6 +1,7 @@
 import React from "react";
 import './fd.css';
 import Header from "../../../../items/header/header";
+import img from '../../../../img/main_page/couple-ballet-dancers-.jpg';
 
 
 function Main_First_Display () {
